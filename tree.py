@@ -1,13 +1,21 @@
+#Import the turtle
 import turtle
+
+#Set the turtle screen
 window = turtle.Screen()
-tur = turtle.Turtle()
-scr = tur.getscreen()
+tur=turtle.Turtle()
+scr=tur.getscreen()
+#title of the screen
 scr.title("Merry Christmas")
+#backgroundcolor of screen
 scr.bgcolor("Black")
+
 tur.color("green")
 tur.pensize(5)
 tur.begin_fill()
-#Creating right half of the tree
+
+
+# Creating Right half of the tree
 tur.forward(100)
 tur.left(150)
 tur.forward(90)
@@ -20,7 +28,8 @@ tur.forward(40)
 tur.left(150)
 tur.forward(100)
 tur.end_fill()
-#left half of the tree
+
+    #left half of the tree
 tur.begin_fill()
 tur.left(60)
 tur.forward(100)
